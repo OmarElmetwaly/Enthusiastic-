@@ -1,0 +1,24 @@
+# AI Security Evaluation
+
+This repository focuses on evaluating AI-generated cybersecurity outputs.
+
+## What I do:
+- Identify hallucinations in AI responses
+- Check for realistic attack scenarios
+- Validate technical accuracy
+- Suggest improvements
+
+## Example Evaluation
+
+### AI Response:
+"SQL injection can always be exploited using OR 1=1"
+
+### Analysis:
+- Oversimplified
+- Lacks context (modern protections like prepared statements)
+
+### Improvement:
+Explain different SQLi types and realistic exploitation conditions.
+
+## Goal
+To improve AI reliability in cybersecurity contexts.
