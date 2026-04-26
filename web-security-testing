@@ -1,0 +1,24 @@
+# Web Security Testing
+
+Hands-on practice with web vulnerabilities aligned with OWASP Top 10.
+
+## Focus Areas:
+- Cross-Site Scripting (XSS)
+- Broken Authentication
+- Security Misconfigurations
+- Input Validation Issues
+
+## Example: XSS Testing
+
+### Payload:
+<script>alert('XSS')</script>
+
+### Observation:
+- Reflected in response
+- Executes in browser
+
+### Conclusion:
+The application is vulnerable to reflected XSS.
+
+## Goal
+To understand how real vulnerabilities work and how to validate them properly.
